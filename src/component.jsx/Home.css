@@ -1,0 +1,124 @@
+.home__container{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #F7F7F7;
+    border-radius: 10px;
+    box-shadow: 24px 36px 64px -14px rgba(77, 77, 77, 0.15);
+    position: absolute;
+    width: 528px;
+    height: 600px;
+    left: 456px;
+    top: 50px;
+    bottom: 123px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.home__left{
+    display: flex;
+    padding-top: 15px;
+    margin-right: 350px;
+    margin-top: 50px;
+    
+}
+
+
+
+.login__container{
+    margin-left: 120px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 30px;
+}
+.profile__image{
+    margin-top: -65px;
+}
+.profile__image>img{
+    border-radius: 50%;
+}
+.profile__info{
+display: block;
+align-items: center;
+justify-content: center;
+margin-bottom: 20px;
+}
+.profile__info>p{
+    align-items: center;
+    justify-content: center; 
+}
+.profile__info>h1{
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+letter-spacing: -0.01em;
+margin-left: -150px;
+}
+.Password__info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+   
+}
+.form__password{
+    display: block;
+    margin-left: -80px;
+}
+.form__password>input{
+   margin-top: 10px;
+}
+.input__password{
+    width: 350px;
+    height: 50px;
+    border-radius:40px;
+}
+.button_3{
+    position: absolute;
+    right: 130px;
+    bottom: 230px;
+   
+}
+
+.bottom__section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit__section{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -120px;
+
+    
+}
+.submit__section>button{
+width: 200px;
+height: 50px;
+background: #4255BD;
+border: 1px solid #6877CA;
+border-radius: 999px;
+
+
+}
+.check{
+    display: flex;
+    margin-right: 20px;
+}
+.check>p{
+    padding-top: 5px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0px;
+}
+.footer>p{
+     font-size: 12px;
+     line-height: 16px;
+     color: #999999;
+}
